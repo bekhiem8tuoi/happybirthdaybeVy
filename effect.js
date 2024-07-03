@@ -173,11 +173,11 @@ $('document').ready(function(){
 		var i;
 
 		function msgLoop (i) {
-			$("p:nth-child("+i+")").fadeOut('slow').delay(3500).promise().done(function(){
+			$("p:nth-child("+i+")").fadeOut('slow').delay(1000).promise().done(function(){
 			i=i+1;
-			$("p:nth-child("+i+")").fadeIn('slow').delay(3500);
-			if(i==60){
-				$("p:nth-child(59)").fadeOut('slow').promise().done(function () {
+			$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
+			if(i==88){
+				$("p:nth-child(87)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 				});
 				
