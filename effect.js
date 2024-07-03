@@ -176,8 +176,8 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeOut('slow').delay(1000).promise().done(function(){
 			i=i+1;
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1500);
-			if(i==88){
-				$("p:nth-child(87)").fadeOut('slow').promise().done(function () {
+			if(i==87){
+				$("p:nth-child(86)").fadeOut('slow').promise().done(function () {
 					$('.cake').fadeIn('fast');
 				});
 				
