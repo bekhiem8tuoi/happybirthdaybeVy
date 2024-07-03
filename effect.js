@@ -166,7 +166,7 @@ $('document').ready(function(){
 	
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
-		$('.cake').fadeOut('fast').promise().done(function(){
+		$('.cake').fadeOut('fast').delay(60000).promise().done(function(){
 			$('.message').fadeIn('slow');
 		});
 		
